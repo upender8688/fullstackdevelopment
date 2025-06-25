@@ -1,0 +1,23 @@
+ body{
+  font-family: Arial, sans-serif;
+  background: blanchedalmond;
+  padding:20px;
+
+  padding:20px;
+  max-width: 600px;
+  margin: auto;
+ 
+}
+
+form{
+  background:  rgba(196, 196, 196, 0.796);
+
+  padding:20px;
+  margin: 25px;
+  border:2px solid gray;
+  align-items: center;
+}
+h1{
+  text-align: center;
+  color:brown;
+}
