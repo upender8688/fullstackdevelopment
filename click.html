@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><center>
+    <div id="abc" style="width: 150px; height: 150px; background-color: lightgreen;"></div><br>
+    <div id="cba">This is MRCET</div><br>
+    <button id="click">Click Me</button>
+    <script>
+        let a=document.getElementById("abc");
+        a.addEventListener("mouseenter",function(){
+            a.style.backgroundColor="lightBlue";
+            a.innerHTML="This is DEVA"
+        });
+        a.addEventListener("mouseout",function(){
+            a.style.backgroundColor="lightGreen";
+            a.innerHTML="This is VR̥ADHA"
+        });
+        
+        let b=document.getElementById("cba");
+        b.addEventListener("mouseenter",function(){
+            b.innerHTML="This is MREC";
+        });
+        b.addEventListener("mouseout",function(){
+            b.innerHTML="This is MRCET";
+        });
+
+        document.getElementById("click").addEventListener("click",function(){
+             alert("Button was clicked");
+        });
+    </script></center>
+</body>
+</html>
